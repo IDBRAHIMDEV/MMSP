@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Page Formulaire</title>
+</head>
+<body>
+
+	<h1>page formulaire</h1>
+	<p>cette page consacré à la gestion des formulaire en HTML</p>
+	<hr>
+
+	<form action="" method="get">
+		
+		<label for="userPrenom">Nom</label>
+		<input placeholder="Votre nom" type="text" name="userPrenom" id="userPrenom">
+
+		<label for="">Date</label>
+		<input type="date" name="date">
+        
+        <label for="email">Email</label>
+		<input type="email" name="email" id="email">
+
+		<label for="tel">tel</label>
+		<input type="tel" name="tel" id="tel">
+
+		<label for="number">Number</label>
+		<input type="number" name="number" id="number">	
+        
+        <br>
+
+        <label for="description">Your story</label>
+		
+		<textarea placeholder="une petite description" name="description" id="description" cols="10" rows="4">
+		</textarea>	
+        
+        <label for="methodContact">Choisir une méthode</label>
+        <select name="methodContact" id="methodContact">
+        	<option value=""></option>
+        	<option value="1">SMS</option>
+        	<option value="2">TEL</option>
+        	<option value="3">EMAIL</option>
+        </select>
+        <br>
+        <label for="male">male</label>
+        <input type="radio" name="sexe" id="male" value="male">
+
+        <label for="female">female</label>
+        <input type="radio" name="sexe" id="female" value="female">
+		<br>
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        
+        <input type="submit" value="Envoyer">
+
+        <button type="submit">Envoyer</button>
+        <button type="reset">Annuler</button>
+	</form>
+	
+</body>
+</html>
